@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ValMari</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:wght@500&family=Montserrat:wght@400;500;600;700&family=Philosopher&family=Raleway:wght@400;500&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/home_responsive.css" />
+  </head>
+  <body>
+    <!-- MODAL -->
+    <div class="modal">
+      <div class="modal_overlay"></div>
+      <div class="modal_body">
+        <h2 class="modal_title">Оставить заявку</h2>
+        <h2 class="modal_title2">Спасибо за заявку!</h2>
+        <p class="modal_pharagraph">
+          Наш менеджер свяжется с вами, а пока посетите нашу страницу в
+          Instagram, вас ждут самые выгодные акции!
+        </p>
+        <div class="inst_link">
+          <img src="icons/modal_instagram.svg" alt="" />
+          <a href="https://www.instagram.com/valmari_ukraine/"
+            >Перейти в Instagram</a
+          >
+        </div>
+        <input id="modal_name" required placeholder="Ваше имя" type="text" />
+        <p class="first_alert">Заполните это поле!</p>
+        <input
+          id="modal_tel"
+          required
+          placeholder="Ваш номер телефона"
+          type="text"
+        />
+        <p class="second_alert">Заполните это поле!</p>
+        <textarea
+          id="modal_textarea"
+          required
+          placeholder="Текст отзыва"
+          cols="20"
+          rows="7"
+        ></textarea>
+        <p class="third_alert">Заполните это поле!</p>
+        <button class="modal_btn">Отправить заявку</button>
+        <div class="modal_close">
+          <img src="icons/modal_close.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- CHECKBOX -->
+    <input type="checkbox" class="checkbox" name="" id="toogle" />
+    <div class="for_responsibility">
+      <div class="overlay_burger"></div>
+      <div class="container">
+        <div class="responsive_header">
+          <label for="toogle" class="burger">
+            <div class="burger_line first_line"></div>
+            <div class="burger_line second_line"></div>
+            <div class="burger_line third_line"></div>
+          </label>
+          <div class="responsive_logo">
+            <a href="index.html"><img src="icons/footer_logo.svg" alt="" /></a>
+          </div>
+          <div class="responsive_phone">
+            <a href="tel:+0800508622"><img src="icons/phone.svg" alt="" /></a>
+            <a href="tel:+0800508622">0 (800) 508-622</a>
+          </div>
+        </div>
+      </div>
+      <div class="navbar_responsive">
+        <div class="navbar_phone">
+          <a href="tel:+0800508622"><img src="icons/phone.svg" alt="" /></a>
+          <a href="tel:+0800508622">0 (800) 508-622</a>
+        </div>
+        <div class="navbar_language">
+          <img src="icons/russia.svg" alt="" />
+          <img src="icons/arrow_down.svg" alt="" />
+        </div>
+        <ul>
+          <li><a href="cource.html">Курсы обучения</a></li>
+          <li><a href="cource.html">Вебинары</a></li>
+          <li><a href="video_cource.html">Видео-уроки</a></li>
+          <li><a href="blog.html">Блог</a></li>
+          <li><a href="about_us.html">О нас</a></li>
+          <li><a href="not_found.html">Прайс</a></li>
+          <li><a href="schedule.html">Рассписание</a></li>
+          <li><a href="offer.html">Акции</a></li>
+          <li><a href="cource.html">Магазин</a></li>
+        </ul>
+        <div class="navbar_icons">
+          <img src="icons/facebook .svg" alt="" />
+          <img src="icons/instagram.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="header_bg">
+      <div class="container">
+        <header>
+          <div class="header_logo">
+            <a href="index.html">
+              <img src="icons/logo.svg" alt="" />
+            </a>
+          </div>
+          <div class="header_contact">
+            <a href="tel:+0800508622">
+              <img src="icons/phone.svg" alt="" class="phone" />
+            </a>
+            <a href="tel:+0800508622">
+              <h3>0 (800) 508-622</h3>
+            </a>
+            <a href="https://www.facebook.com/Valmari2015/">
+              <img src="icons/facebook .svg" alt="" class="facebook" />
+            </a>
+            <a href="https://www.instagram.com/valmari_ukraine/">
+              <img src="icons/instagram.svg" alt="" class="instagram" />
+            </a>
+            <div class="language">
+              <a href="#">
+                <img src="icons/russia.svg" alt="" class="language" />
+              </a>
+              <a href="#">
+                <img src="icons/arrow_down.svg" alt="" class="arrow_down" />
+              </a>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+    <div class="container">
+      <div class="navbar">
+        <ul>
+          <li><a href="cource.html">Курсы обучения</a></li>
+          <li><a href="cource.html">Вебинары</a></li>
+          <li><a href="video_cource.html">Видео-уроки</a></li>
+          <li><a href="blog.html">Блог</a></li>
+          <li><a href="about_us.html">О нас</a></li>
+          <li><a href="not_found.html">Прайс</a></li>
+          <li><a href="schedule.html">Рассписание</a></li>
+          <li><a href="offer.html">Акции</a></li>
+          <li><a href="cource.html">Магазин</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="hero_bg">
+      <div class="container">
+        <div class="hero">
+          <h3 id="prime">Бесплатный вебинар</h3>
+          <h1>
+            ПРОФЕССИЯ<br />
+            КОСМЕТОЛОГ
+          </h1>
+          <p>
+            Приглашаем на бесплатный вебинар для профессиональных косметологов и
+            интересующихся этой профессией
+          </p>
+          <div class="hero_btns">
+            <button class="registration reg2">Зарегистрироваться</button>
+            <a href="about_cource.html" class="info_more">Узнать подробнее</a>
+          </div>
+          <img src="images/hero.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="statistic_bg">
+      <div class="container">
+        <div class="statistic">
+          <div class="statistic_item">
+            <h2>4000+</h2>
+            <p>
+              Сертификатов<br />
+              мы выдали
+            </p>
+          </div>
+          <div class="statistic_item">
+            <h2>3500+</h2>
+            <p>
+              Моделей<br />
+              в нашей базе
+            </p>
+          </div>
+          <div class="statistic_item">
+            <h2>1500+</h2>
+            <p>
+              Специалистов<br />
+              мы обучили
+            </p>
+          </div>
+          <div class="statistic_item">
+            <h2>5500+</h2>
+            <p>
+              Довольных<br />
+              клиентов
+            </p>
+          </div>
+        </div>
+        <div class="title">
+          <h2>Курсы обучения</h2>
+        </div>
+      </div>
+      <img src="images/statistic_bg.png" alt="" class="statistic_bg_img" />
+    </div>
+    <div class="cources">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="cource">
+                <div class="cource_item">
+                  <p>Курс для медиков</p>
+                  <h2 class="first_h2">
+                    Канюльные<br />
+                    техники
+                  </h2>
+                  <div class="first_h3">
+                    <h3>Оффлайн</h3>
+                  </div>
+                  <div class="cource_man">
+                    <div class="cource_man_info">
+                      <h4>1 - 4 мая</h4>
+                      <p>
+                        Краткое описание<br />
+                        Что-то о курсе<br />
+                        Пару фактов<br />
+                        Краткое описание
+                      </p>
+                    </div>
+                    <div class="cource_man_img">
+                      <img src="images/cource_man.png" alt="" />
+                    </div>
+                  </div>
+                  <h5>Свободно 2 из 15 мест</h5>
+                  <button class="cource_registration_first reg2">
+                    Зарегистрироваться
+                  </button>
+                  <a href="about_cource.html" class="cource_info_first"
+                    >Подробнее</a
+                  >
+                  <img class="cource_bird" src="icons/cource_bird.svg" alt="" />
+                </div>
+                <div class="cource_item">
+                  <p>Курс для медиков</p>
+                  <h2 class="second_h2">
+                    Канюльные<br />
+                    техники
+                  </h2>
+                  <div class="second_h3">
+                    <h3>Оффлайн</h3>
+                  </div>
+                  <div class="cource_man">
+                    <div class="cource_man_info">
+                      <h4>1 - 4 мая</h4>
+                      <p>
+                        Краткое описание<br />
+                        Что-то о курсе<br />
+                        Пару фактов<br />
+                        Краткое описание
+                      </p>
+                    </div>
+                    <div class="cource_man_img">
+                      <img src="images/cource_man.png" alt="" />
+                    </div>
+                  </div>
+                  <h5>Свободно 2 из 15 мест</h5>
+                  <button class="cource_registration_second reg2">
+                    Зарегистрироваться
+                  </button>
+                  <a href="about_cource.html" class="cource_info_second"
+                    >Подробнее</a
+                  >
+                  <img class="cource_bird" src="icons/cource_bird.svg" alt="" />
+                </div>
+                <div class="cource_item">
+                  <p>Курс для медиков</p>
+                  <h2 class="third_h2">
+                    Канюльные<br />
+                    техники
+                  </h2>
+                  <div class="third_h3">
+                    <h3>Оффлайн</h3>
+                  </div>
+                  <div class="cource_man">
+                    <div class="cource_man_info">
+                      <h4>1 - 4 мая</h4>
+                      <p>
+                        Краткое описание<br />
+                        Что-то о курсе<br />
+                        Пару фактов<br />
+                        Краткое описание
+                      </p>
+                    </div>
+                    <div class="cource_man_img">
+                      <img src="images/cource_man.png" alt="" />
+                    </div>
+                  </div>
+                  <h5>Свободно 2 из 15 мест</h5>
+                  <button class="cource_registration_third reg2">
+                    Зарегистрироваться
+                  </button>
+                  <a href="about_cource.html" class="cource_info_third"
+                    >Подробнее</a
+                  >
+                  <img class="cource_bird" src="icons/cource_bird.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="cource">
+                <div class="cource_item">
+                  <p>Курс для медиков</p>
+                  <h2 class="first_h2">
+                    Канюльные<br />
+                    техники
+                  </h2>
+                  <div class="first_h3">
+                    <h3>Оффлайн</h3>
+                  </div>
+                  <div class="cource_man">
+                    <div class="cource_man_info">
+                      <h4>1 - 4 мая</h4>
+                      <p>
+                        Краткое описание<br />
+                        Что-то о курсе<br />
+                        Пару фактов<br />
+                        Краткое описание
+                      </p>
+                    </div>
+                    <div class="cource_man_img">
+                      <img src="images/cource_man.png" alt="" />
+                    </div>
+                  </div>
+                  <h5>Свободно 2 из 15 мест</h5>
+                  <button class="cource_registration_first reg2">
+                    Зарегистрироваться
+                  </button>
+                  <a href="about_cource.html" class="cource_info_first"
+                    >Подробнее</a
+                  >
+                  <img class="cource_bird" src="icons/cource_bird.svg" alt="" />
+                </div>
+                <div class="cource_item">
+                  <p>Курс для медиков</p>
+                  <h2 class="second_h2">
+                    Канюльные<br />
+                    техники
+                  </h2>
+                  <div class="second_h3">
+                    <h3>Оффлайн</h3>
+                  </div>
+                  <div class="cource_man">
+                    <div class="cource_man_info">
+                      <h4>1 - 4 мая</h4>
+                      <p>
+                        Краткое описание<br />
+                        Что-то о курсе<br />
+                        Пару фактов<br />
+                        Краткое описание
+                      </p>
+                    </div>
+                    <div class="cource_man_img">
+                      <img src="images/cource_man.png" alt="" />
+                    </div>
+                  </div>
+                  <h5>Свободно 2 из 15 мест</h5>
+                  <button class="cource_registration_second reg2">
+                    Зарегистрироваться
+                  </button>
+                  <a href="about_cource.html" class="cource_info_second"
+                    >Подробнее</a
+                  >
+                  <img class="cource_bird" src="icons/cource_bird.svg" alt="" />
+                </div>
+                <div class="cource_item">
+                  <p>Курс для медиков</p>
+                  <h2 class="third_h2">
+                    Канюльные<br />
+                    техники
+                  </h2>
+                  <div class="third_h3">
+                    <h3>Оффлайн</h3>
+                  </div>
+                  <div class="cource_man">
+                    <div class="cource_man_info">
+                      <h4>1 - 4 мая</h4>
+                      <p>
+                        Краткое описание<br />
+                        Что-то о курсе<br />
+                        Пару фактов<br />
+                        Краткое описание
+                      </p>
+                    </div>
+                    <div class="cource_man_img">
+                      <img src="images/cource_man.png" alt="" />
+                    </div>
+                  </div>
+                  <h5>Свободно 2 из 15 мест</h5>
+                  <button class="cource_registration_third reg2">
+                    Зарегистрироваться
+                  </button>
+                  <a href="about_cource.html" class="cource_info_third"
+                    >Подробнее</a
+                  >
+                  <img class="cource_bird" src="icons/cource_bird.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="cource">
+                <div class="cource_item">
+                  <p>Курс для медиков</p>
+                  <h2 class="first_h2">
+                    Канюльные<br />
+                    техники
+                  </h2>
+                  <div class="first_h3">
+                    <h3>Оффлайн</h3>
+                  </div>
+                  <div class="cource_man">
+                    <div class="cource_man_info">
+                      <h4>1 - 4 мая</h4>
+                      <p>
+                        Краткое описание<br />
+                        Что-то о курсе<br />
+                        Пару фактов<br />
+                        Краткое описание
+                      </p>
+                    </div>
+                    <div class="cource_man_img">
+                      <img src="images/cource_man.png" alt="" />
+                    </div>
+                  </div>
+                  <h5>Свободно 2 из 15 мест</h5>
+                  <button class="cource_registration_first reg2">
+                    Зарегистрироваться
+                  </button>
+                  <a href="about_cource.html" class="cource_info_first"
+                    >Подробнее</a
+                  >
+                  <img class="cource_bird" src="icons/cource_bird.svg" alt="" />
+                </div>
+                <div class="cource_item">
+                  <p>Курс для медиков</p>
+                  <h2 class="second_h2">
+                    Канюльные<br />
+                    техники
+                  </h2>
+                  <div class="second_h3">
+                    <h3>Оффлайн</h3>
+                  </div>
+                  <div class="cource_man">
+                    <div class="cource_man_info">
+                      <h4>1 - 4 мая</h4>
+                      <p>
+                        Краткое описание<br />
+                        Что-то о курсе<br />
+                        Пару фактов<br />
+                        Краткое описание
+                      </p>
+                    </div>
+                    <div class="cource_man_img">
+                      <img src="images/cource_man.png" alt="" />
+                    </div>
+                  </div>
+                  <h5>Свободно 2 из 15 мест</h5>
+                  <button class="cource_registration_second reg2">
+                    Зарегистрироваться
+                  </button>
+                  <a href="about_cource.html" class="cource_info_second"
+                    >Подробнее</a
+                  >
+                  <img class="cource_bird" src="icons/cource_bird.svg" alt="" />
+                </div>
+                <div class="cource_item">
+                  <p>Курс для медиков</p>
+                  <h2 class="third_h2">
+                    Канюльные<br />
+                    техники
+                  </h2>
+                  <div class="third_h3">
+                    <h3>Оффлайн</h3>
+                  </div>
+                  <div class="cource_man">
+                    <div class="cource_man_info">
+                      <h4>1 - 4 мая</h4>
+                      <p>
+                        Краткое описание<br />
+                        Что-то о курсе<br />
+                        Пару фактов<br />
+                        Краткое описание
+                      </p>
+                    </div>
+                    <div class="cource_man_img">
+                      <img src="images/cource_man.png" alt="" />
+                    </div>
+                  </div>
+                  <h5>Свободно 2 из 15 мест</h5>
+                  <button class="cource_registration_third reg2">
+                    Зарегистрироваться
+                  </button>
+                  <a href="about_cource.html" class="cource_info_third"
+                    >Подробнее</a
+                  >
+                  <img class="cource_bird" src="icons/cource_bird.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="cource">
+                <div class="cource_item">
+                  <p>Курс для медиков</p>
+                  <h2 class="first_h2">
+                    Канюльные<br />
+                    техники
+                  </h2>
+                  <div class="first_h3">
+                    <h3>Оффлайн</h3>
+                  </div>
+                  <div class="cource_man">
+                    <div class="cource_man_info">
+                      <h4>1 - 4 мая</h4>
+                      <p>
+                        Краткое описание<br />
+                        Что-то о курсе<br />
+                        Пару фактов<br />
+                        Краткое описание
+                      </p>
+                    </div>
+                    <div class="cource_man_img">
+                      <img src="images/cource_man.png" alt="" />
+                    </div>
+                  </div>
+                  <h5>Свободно 2 из 15 мест</h5>
+                  <button class="cource_registration_first reg2">
+                    Зарегистрироваться
+                  </button>
+                  <a href="about_cource.html" class="cource_info_first"
+                    >Подробнее</a
+                  >
+                  <img class="cource_bird" src="icons/cource_bird.svg" alt="" />
+                </div>
+                <div class="cource_item">
+                  <p>Курс для медиков</p>
+                  <h2 class="second_h2">
+                    Канюльные<br />
+                    техники
+                  </h2>
+                  <div class="second_h3">
+                    <h3>Оффлайн</h3>
+                  </div>
+                  <div class="cource_man">
+                    <div class="cource_man_info">
+                      <h4>1 - 4 мая</h4>
+                      <p>
+                        Краткое описание<br />
+                        Что-то о курсе<br />
+                        Пару фактов<br />
+                        Краткое описание
+                      </p>
+                    </div>
+                    <div class="cource_man_img">
+                      <img src="images/cource_man.png" alt="" />
+                    </div>
+                  </div>
+                  <h5>Свободно 2 из 15 мест</h5>
+                  <button class="cource_registration_second reg2">
+                    Зарегистрироваться
+                  </button>
+                  <a href="about_cource.html" class="cource_info_second"
+                    >Подробнее</a
+                  >
+                  <img class="cource_bird" src="icons/cource_bird.svg" alt="" />
+                </div>
+                <div class="cource_item">
+                  <p>Курс для медиков</p>
+                  <h2 class="third_h2">
+                    Канюльные<br />
+                    техники
+                  </h2>
+                  <div class="third_h3">
+                    <h3>Оффлайн</h3>
+                  </div>
+                  <div class="cource_man">
+                    <div class="cource_man_info">
+                      <h4>1 - 4 мая</h4>
+                      <p>
+                        Краткое описание<br />
+                        Что-то о курсе<br />
+                        Пару фактов<br />
+                        Краткое описание
+                      </p>
+                    </div>
+                    <div class="cource_man_img">
+                      <img src="images/cource_man_two.png" alt="" />
+                    </div>
+                  </div>
+                  <h5>Свободно 2 из 15 мест</h5>
+                  <button class="cource_registration_third reg2">
+                    Зарегистрироваться
+                  </button>
+                  <a href="about_cource.html" class="cource_info_third"
+                    >Подробнее</a
+                  >
+                  <img class="cource_bird" src="icons/cource_bird.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="about_us">
+        <div class="about_img">
+          <img src="images/about.png" alt="" />
+          <div class="about_info">
+            <a href="about_us.html"
+              >Подробнее <img src="icons/about_arrow.svg" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="about_text">
+          <h4>О нас</h4>
+          <h2>
+            <span>VALMARI</span> <br />
+            ВЕДУЩИЙ УЧЕБНЫЙ ЦЕНТР ЭСТЕТИЧЕСКОЙ КОСМЕТОЛОГИИ
+          </h2>
+          <p>Описание может быть любое.</p>
+          <p>Ведущий учебный центр эстетической косметологии.</p>
+          <p>
+            Более 5 лет мы проводим курсы сертифицированные курсы
+            профессионального образования в области косметологии и индустрии
+            красоты, здоровья и молодости
+          </p>
+
+          <a href="about_us.html"
+            >Подробнее <img src="icons/about_arrow.svg" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="title">
+        <h2>Обучение косметологов</h2>
+      </div>
+      <div class="learn">
+        <div class="learn_top">
+          <div class="learn_big_item big_first">
+            <div class="learn_overlay"></div>
+            <div class="big_first_text">
+              <a href="cource.html">
+                курсы<br />
+                косметологии
+              </a>
+              <p>- эстетическая косметология</p>
+              <p>- инъекционная косметология</p>
+              <p>- лазерная косметология</p>
+            </div>
+            <img src="images/learn_big_first.png" alt="" />
+          </div>
+          <div class="learn_big_item big_second">
+            <div class="learn_overlay"></div>
+            <div class="big_second_text">
+              <a href="cource.html">Онлайн обучение</a>
+            </div>
+            <img src="images/learn_big_second.png" alt="" />
+          </div>
+        </div>
+        <div class="learn_down">
+          <div class="learn_small_item small_first">
+            <div class="learn_overlay"></div>
+            <div class="small_first_text">
+              <a href="cource.html">мастер-классы</a>
+            </div>
+            <img src="images/learn_small_first.png" alt="" />
+          </div>
+
+          <div class="learn_small_item small_second">
+            <div class="learn_overlay"></div>
+            <div class="small_second_text">
+              <a href="schedule.html">расписание</a>
+            </div>
+            <img src="images/learn_small_second.png" alt="" />
+          </div>
+
+          <div class="learn_small_item small_third">
+            <div class="learn_overlay"></div>
+            <div class="small_third_text">
+              <a href="offer.html">Акции</a>
+            </div>
+            <img src="images/learn_small_third.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="model">
+        <div class="model_text">
+          <h2>ВЕДЕМ НАБОР МОДЕЛЕЙ</h2>
+          <p>Мы предлагаем свои услуги для моделей.</p>
+          <p>
+            Выберите процедуру или несколько процедур и наш менеджер
+            проконсультирует вас<br />
+            и назовет ближайшую дату, когда вы сможете получить эту процедуру.
+          </p>
+          <a class="reg2">Стать моделью</a>
+        </div>
+        <div class="model_img">
+          <img src="images/model.png" alt="" />
+        </div>
+      </div>
+      <div class="title">
+        <h2>Мастер-классы</h2>
+        <p>Мероприятия для повышения квалификации косметологов</p>
+      </div>
+    </div>
+    <div class="master">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="master_items">
+                <div class="master_item master_first">
+                  <div class="master_img">
+                    <img src="images/master 1.png" alt="" />
+                  </div>
+                  <div class="master_text">
+                    <div class="master_text_left">
+                      <h6>3 ноября, 10:00-12:00</h6>
+                      <h2>
+                        10 возможностей неодимового лазера. Лазерный пилинг,
+                        удаление тату/татуажа
+                      </h2>
+                      <p>Тренер: Юлия Щукина</p>
+                    </div>
+                    <div class="master_text_right">
+                      <div class="master_price">
+                        <h2>2000 грн</h2>
+                      </div>
+                      <a href="cource.html" class="master_white_arrow">
+                        <img src="icons/master_arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="master_item master_second">
+                  <div class="master_img">
+                    <img src="images/master 2.png" alt="" />
+                  </div>
+                  <div class="master_text">
+                    <div class="master_text_left">
+                      <h6>20 ноября, 12:00-17:00</h6>
+                      <h2>
+                        Профессия косметолог. Семинар для новичков и
+                        профессионалов
+                      </h2>
+                      <p>
+                        Спикеры: Марина Спивак, Алина Ядчишина, Елена
+                        Белогурова, Юлия Щукина
+                      </p>
+                    </div>
+                    <div class="master_text_right">
+                      <div class="master_price">
+                        <h2>Бесплатно</h2>
+                      </div>
+                      <a href="cource.html" class="master_white_arrow">
+                        <img src="icons/master_arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="master_items">
+                <div class="master_item master_first">
+                  <div class="master_img">
+                    <img src="images/master 1.png" alt="" />
+                  </div>
+                  <div class="master_text">
+                    <div class="master_text_left">
+                      <h6>3 ноября, 10:00-12:00</h6>
+                      <h2>
+                        10 возможностей неодимового лазера. Лазерный пилинг,
+                        удаление тату/татуажа
+                      </h2>
+                      <p>Тренер: Юлия Щукина</p>
+                    </div>
+                    <div class="master_text_right">
+                      <div class="master_price">
+                        <h2>2000 грн</h2>
+                      </div>
+                      <a href="cource.html" class="master_white_arrow">
+                        <img src="icons/master_arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="master_item master_second">
+                  <div class="master_img">
+                    <img src="images/master 2.png" alt="" />
+                  </div>
+                  <div class="master_text">
+                    <div class="master_text_left">
+                      <h6>20 ноября, 12:00-17:00</h6>
+                      <h2>
+                        Профессия косметолог. Семинар для новичков и
+                        профессионалов
+                      </h2>
+                      <p>
+                        Спикеры: Марина Спивак, Алина Ядчишина, Елена
+                        Белогурова, Юлия Щукина
+                      </p>
+                    </div>
+                    <div class="master_text_right">
+                      <div class="master_price">
+                        <h2>Бесплатно</h2>
+                      </div>
+                      <a href="cource.html" class="master_white_arrow">
+                        <img src="icons/master_arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="master_items">
+                <div class="master_item master_first">
+                  <div class="master_img">
+                    <img src="images/master 1.png" alt="" />
+                  </div>
+                  <div class="master_text">
+                    <div class="master_text_left">
+                      <h6>3 ноября, 10:00-12:00</h6>
+                      <h2>
+                        10 возможностей неодимового лазера. Лазерный пилинг,
+                        удаление тату/татуажа
+                      </h2>
+                      <p>Тренер: Юлия Щукина</p>
+                    </div>
+                    <div class="master_text_right">
+                      <div class="master_price">
+                        <h2>2000 грн</h2>
+                      </div>
+                      <a href="cource.html" class="master_white_arrow">
+                        <img src="icons/master_arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="master_item master_second">
+                  <div class="master_img">
+                    <img src="images/master 2.png" alt="" />
+                  </div>
+                  <div class="master_text">
+                    <div class="master_text_left">
+                      <h6>20 ноября, 12:00-17:00</h6>
+                      <h2>
+                        Профессия косметолог. Семинар для новичков и
+                        профессионалов
+                      </h2>
+                      <p>
+                        Спикеры: Марина Спивак, Алина Ядчишина, Елена
+                        Белогурова, Юлия Щукина
+                      </p>
+                    </div>
+                    <div class="master_text_right">
+                      <div class="master_price">
+                        <h2>Бесплатно</h2>
+                      </div>
+                      <a href="cource.html" class="master_white_arrow">
+                        <img src="icons/master_arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="master_items">
+                <div class="master_item master_first">
+                  <div class="master_img">
+                    <img src="images/master 1.png" alt="" />
+                  </div>
+                  <div class="master_text">
+                    <div class="master_text_left">
+                      <h6>3 ноября, 10:00-12:00</h6>
+                      <h2>
+                        10 возможностей неодимового лазера. Лазерный пилинг,
+                        удаление тату/татуажа
+                      </h2>
+                      <p>Тренер: Юлия Щукина</p>
+                    </div>
+                    <div class="master_text_right">
+                      <div class="master_price">
+                        <h2>2000 грн</h2>
+                      </div>
+                      <a href="cource.html" class="master_white_arrow">
+                        <img src="icons/master_arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="master_item master_second">
+                  <div class="master_img">
+                    <img src="images/master 2.png" alt="" />
+                  </div>
+                  <div class="master_text">
+                    <div class="master_text_left">
+                      <h6>20 ноября, 12:00-17:00</h6>
+                      <h2>
+                        Профессия косметолог. Семинар для новичков и
+                        профессионалов
+                      </h2>
+                      <p>
+                        Спикеры: Марина Спивак, Алина Ядчишина, Елена
+                        Белогурова, Юлия Щукина
+                      </p>
+                    </div>
+                    <div class="master_text_right">
+                      <div class="master_price">
+                        <h2>Бесплатно</h2>
+                      </div>
+                      <a href="cource.html" class="master_white_arrow">
+                        <img src="icons/master_arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="master_items">
+                <div class="master_item master_first">
+                  <div class="master_img">
+                    <img src="images/master 1.png" alt="" />
+                  </div>
+                  <div class="master_text">
+                    <div class="master_text_left">
+                      <h6>3 ноября, 10:00-12:00</h6>
+                      <h2>
+                        10 возможностей неодимового лазера. Лазерный пилинг,
+                        удаление тату/татуажа
+                      </h2>
+                      <p>Тренер: Юлия Щукина</p>
+                    </div>
+                    <div class="master_text_right">
+                      <div class="master_price">
+                        <h2>2000 грн</h2>
+                      </div>
+                      <a href="cource.html" class="master_white_arrow">
+                        <img src="icons/master_arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="master_item master_second">
+                  <div class="master_img">
+                    <img src="images/master 2.png" alt="" />
+                  </div>
+                  <div class="master_text">
+                    <div class="master_text_left">
+                      <h6>20 ноября, 12:00-17:00</h6>
+                      <h2>
+                        Профессия косметолог. Семинар для новичков и
+                        профессионалов
+                      </h2>
+                      <p>
+                        Спикеры: Марина Спивак, Алина Ядчишина, Елена
+                        Белогурова, Юлия Щукина
+                      </p>
+                    </div>
+                    <div class="master_text_right">
+                      <div class="master_price">
+                        <h2>Бесплатно</h2>
+                      </div>
+                      <a href="cource.html" class="master_white_arrow">
+                        <img src="icons/master_arrow.svg" alt="" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="title">
+        <h2>Почему мы</h2>
+      </div>
+      <div class="why">
+        <div class="why_item">
+          <div class="why_number_first">
+            <h2>01</h2>
+          </div>
+          <div class="why_number_768">
+            <h3>01</h3>
+          </div>
+          <div class="why_text_first">
+            <h2>Преподаватели</h2>
+            <p>
+              Наши преподаватели имеют многолетний опыт в сфере косметологии и
+              совмещают преподовательскую деятельность с практической работой в
+              салонах красоты и других специализированных центрах.
+            </p>
+          </div>
+        </div>
+        <div class="why_item">
+          <div class="why_overlay"></div>
+          <div class="why_number_second">
+            <h2>02</h2>
+          </div>
+          <div class="why_number_768">
+            <h3>02</h3>
+          </div>
+          <div class="why_text_second">
+            <h2>Сертификаты</h2>
+            <p>
+              Удостоверение, сертификат и свидетельство полученные у нас по
+              окончанию курсов, работают как лучшая "рекомендация" при приеме на
+              работу
+            </p>
+          </div>
+        </div>
+        <div class="why_item">
+          <div class="why_number_third">
+            <h3>0</h3>
+            <h2>3</h2>
+          </div>
+          <div class="why_number_768">
+            <h3>03</h3>
+          </div>
+          <div class="why_text_third">
+            <h2>Повышение квалификации</h2>
+            <p>
+              Ежегодно, больше 2000 косметологов повышают квалификацию и уровень
+              профессионализма в просторных кабинетах нашего центра.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="title">
+        <h2>Специальные предложения</h2>
+      </div>
+    </div>
+    <div class="promotion">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="promotions">
+                <a href="offer.html" class="promotion_item">
+                  <img src="images/promotion 1.png" alt="" />
+                </a>
+                <a href="offer.html" class="promotion_item">
+                  <img src="images/promotion 2.png" alt="" />
+                </a>
+                <a href="offer.html" class="promotion_item">
+                  <img src="images/promotion 3.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="promotions">
+                <a href="offer.html" class="promotion_item">
+                  <img src="images/promotion 3.png" alt="" />
+                </a>
+                <a href="offer.html" class="promotion_item">
+                  <img src="images/promotion 2.png" alt="" />
+                </a>
+                <a href="offer.html" class="promotion_item">
+                  <img src="images/promotion 1.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="promotions">
+                <a href="offer.html" class="promotion_item">
+                  <img src="images/promotion 1.png" alt="" />
+                </a>
+                <a href="offer.html" class="promotion_item">
+                  <img src="images/promotion 2.png" alt="" />
+                </a>
+                <a href="offer.html" class="promotion_item">
+                  <img src="images/promotion 3.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="promotions">
+                <a href="offer.html" class="promotion_item">
+                  <img src="images/promotion 3.png" alt="" />
+                </a>
+                <a href="offer.html" class="promotion_item">
+                  <img src="images/promotion 2.png" alt="" />
+                </a>
+                <a href="offer.html" class="promotion_item">
+                  <img src="images/promotion 1.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="promotions">
+                <a href="offer.html" class="promotion_item">
+                  <img src="images/promotion 1.png" alt="" />
+                </a>
+                <a href="offer.html" class="promotion_item">
+                  <img src="images/promotion 2.png" alt="" />
+                </a>
+                <a href="offer.html" class="promotion_item">
+                  <img src="images/promotion 3.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="recall">
+        <h2>Закажите обратный звонок</h2>
+        <p>Оставьте заявку в форме и наш менеджер свяжется с вами</p>
+        <form>
+          <input placeholder="Ваше имя" type="text" />
+          <input placeholder="Ваш номер телефона" type="text" />
+          <button class="reg2">Отправить</button>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <div class="footer_map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.367930489372!2d49.84653408092322!3d40.37853740559822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307da6571f6cc7%3A0x8c29ed401e1df1e7!2sCentral%20Bank%20of%20the%20Republic%20of%20Azerbaijan!5e0!3m2!1saz!2saz!4v1677946677176!5m2!1saz!2saz"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <a href="#" class="goverment_480">Политика конфиденциальности</a>
+      </div>
+      <div class="footer_text">
+        <img src="icons/footer_logo.svg" alt="" />
+        <a href="tel:+0800508622" class="footer_phone">0 (800) 508-622</a>
+        <p>Харьков, Клочковская, д. 3</p>
+        <div class="footer_nav">
+          <ul class="left_nav">
+            <li><a href="cource.html">Курсы обучения</a></li>
+            <li><a href="cource.html">Вебинары</a></li>
+            <li><a href="cource.html">Видео-уроки</a></li>
+            <li><a href="not_found.html">Прайс</a></li>
+            <li><a href="schedule.html">Рассписание</a></li>
+          </ul>
+          <ul class="right_nav">
+            <li><a href="offer.html">Акции</a></li>
+            <li><a href="about_us.html">О нас</a></li>
+            <li><a href="blog.html">Блог</a></li>
+            <li><a href="cource.html">Магазин</a></li>
+          </ul>
+        </div>
+        <div class="footer_icons">
+          <a href="https://www.facebook.com/Valmari2015/">
+            <img src="icons/footer_facebook.svg" alt="" />
+          </a>
+          <a href="https://www.instagram.com/valmari_ukraine/">
+            <img src="icons/footer_instagram.svg" alt="" />
+          </a>
+        </div>
+        <a href="not_found.html" class="goverment"
+          >Политика конфиденциальности</a
+        >
+      </div>
+    </footer>
+    <script src="js/modal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/home_swipe.js"></script>
+    <!-- <script src="app.js"></script> -->
+    <!-- <script src="Reducer.js"></script> -->
+  </body>
+</html>

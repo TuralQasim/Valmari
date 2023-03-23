@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ValMari</title>
+    <link rel="stylesheet" href="css/about_cource.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:wght@500&family=Montserrat:wght@400;500;600;700&family=Philosopher&family=Raleway:wght@400;500&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/about_cource_responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!-- MODAL -->
+    <div class="modal">
+      <div class="modal_overlay"></div>
+      <div class="modal_body">
+        <h2 class="modal_title">Оставить заявку</h2>
+        <h2 class="modal_title2">Спасибо за заявку!</h2>
+        <p class="modal_pharagraph">
+          Наш менеджер свяжется с вами, а пока посетите нашу страницу в
+          Instagram, вас ждут самые выгодные акции!
+        </p>
+        <div class="inst_link">
+          <img src="icons/modal_instagram.svg" alt="" />
+          <a href="https://www.instagram.com/valmari_ukraine/"
+            >Перейти в Instagram</a
+          >
+        </div>
+        <input id="modal_name" required placeholder="Ваше имя" type="text" />
+        <p class="first_alert">Заполните это поле!</p>
+        <input
+          id="modal_tel"
+          required
+          placeholder="Ваш номер телефона"
+          type="text"
+        />
+        <p class="second_alert">Заполните это поле!</p>
+        <textarea
+          id="modal_textarea"
+          required
+          placeholder="Текст отзыва"
+          cols="20"
+          rows="7"
+        ></textarea>
+        <p class="third_alert">Заполните это поле!</p>
+        <button class="modal_btn">Отправить заявку</button>
+        <div class="modal_close">
+          <img src="icons/modal_close.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- RESPONSIBILITY -->
+    <input type="checkbox" class="checkbox" name="" id="toogle" />
+    <div class="for_responsibility">
+      <div class="overlay_burger"></div>
+      <div class="container">
+        <div class="responsive_header">
+          <label for="toogle" class="burger">
+            <div class="burger_line first_line"></div>
+            <div class="burger_line second_line"></div>
+            <div class="burger_line third_line"></div>
+          </label>
+          <div class="responsive_logo">
+            <a href="index.html"><img src="icons/footer_logo.svg" alt="" /></a>
+          </div>
+          <div class="responsive_phone">
+            <a href="tel:+0800508622"><img src="icons/phone.svg" alt="" /></a>
+            <a href="tel:+0800508622">0 (800) 508-622</a>
+          </div>
+        </div>
+      </div>
+      <div class="navbar_responsive">
+        <div class="navbar_phone">
+          <a href="tel:+0800508622"><img src="icons/phone.svg" alt="" /></a>
+          <a href="tel:+0800508622">0 (800) 508-622</a>
+        </div>
+        <div class="navbar_language">
+          <img src="icons/russia.svg" alt="" />
+          <img src="icons/arrow_down.svg" alt="" />
+        </div>
+        <ul>
+          <li><a href="cource.html">Курсы обучения</a></li>
+          <li><a href="cource.html">Вебинары</a></li>
+          <li><a href="video_cource.html">Видео-уроки</a></li>
+          <li><a href="blog.html">Блог</a></li>
+          <li><a href="about_us.html">О нас</a></li>
+          <li><a href="not_found.html">Прайс</a></li>
+          <li><a href="schedule.html">Рассписание</a></li>
+          <li><a href="offer.html">Акции</a></li>
+          <li><a href="cource.htmtel:+0800508622">Магазин</a></li>
+        </ul>
+        <div class="navbar_icons">
+          <img src="icons/facebook .svg" alt="" />
+          <img src="icons/instagram.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- HEADER -->
+    <div class="header_bg">
+      <div class="container">
+        <header>
+          <div class="header_logo">
+            <a href="index.html">
+              <img src="icons/logo.svg" alt="" />
+            </a>
+          </div>
+          <div class="header_contact">
+            <a href="tel:+0800508622">
+              <img src="icons/phone.svg" alt="" class="phone" />
+            </a>
+            <a href="tel:+0800508622">
+              <h3>0 (800) 508-622</h3>
+            </a>
+            <a href="https://www.facebook.com/Valmari2015/">
+              <img src="icons/facebook .svg" alt="" class="facebook" />
+            </a>
+            <a href="https://www.instagram.com/valmari_ukraine/">
+              <img src="icons/instagram.svg" alt="" class="instagram" />
+            </a>
+            <div class="language">
+              <a href="#">
+                <img src="icons/russia.svg" alt="" class="language" />
+              </a>
+              <a href="#">
+                <img src="icons/arrow_down.svg" alt="" class="arrow_down" />
+              </a>
+            </div>
+          </div>
+        </header>
+      </div>
+    </div>
+    <div class="container">
+      <div class="navbar">
+        <ul>
+          <li><a href="cource.html">Курсы обучения</a></li>
+          <li><a href="cource.html">Вебинары</a></li>
+          <li><a href="video_cource.html">Видео-уроки</a></li>
+          <li><a href="blog.html">Блог</a></li>
+          <li><a href="about_us.html">О нас</a></li>
+          <li><a href="not_found.html">Прайс</a></li>
+          <li><a href="schedule.html">Рассписание</a></li>
+          <li><a href="offer.html">Акции</a></li>
+          <li><a href="cource.html">Магазин</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="hero_bg">
+      <div class="container">
+        <div class="hero">
+          <div class="hero_text">
+            <p>Старт курса: 10 января</p>
+            <h2>
+              Ботулинотерапия<br />
+              для косметологов
+            </h2>
+            <div class="hero_btn">
+              <button class="registration reg2">Зарегистрироваться</button>
+              <a href="#about_this" class="info_more">Узнать подробнее</a>
+            </div>
+          </div>
+          <div class="hero_img">
+            <img src="images/about_hero.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- PROCEDUR INFO -->
+      <div class="procedur_info">
+        <p>
+          Процедура ботулинотерапия - это инъекционная методика для устранения и
+          профилактики морщин. Также, процедура помогает бороться с опущением
+          уголков рта , потерей четкости овала лица , гипергидрозом.
+        </p>
+        <p>
+          На курсе вы научитесь тщательно подбирать препарат, а также
+          отработаете на практике техники введения и безопасные разметки точек
+          для разных анатомических типов лица. Вы будете эффективно и беопасно
+          применять навыки в работе со своими клиентами.
+        </p>
+        <p>
+          Курс по ботулинотерапии необходим, чтобы вы были увереныв своих
+          знаниях и приносили желаемый результат своим клиентам.
+        </p>
+      </div>
+      <!-- TITLE -->
+      <div class="title">
+        <h2>Программа курса</h2>
+      </div>
+      <!-- DAYS -->
+      <div class="days" id="about_this">
+        <div class="first_day">
+          <div class="day_left">
+            <h2>1 день</h2>
+          </div>
+          <div class="day_right">
+            <h3>
+              Тема: Коррекция ботулотоксином типа А (БТА) верхней и средней
+              трети лица
+            </h3>
+            <h4>Теория</h4>
+            <div class="teory">
+              <h2>01</h2>
+              <p>Виды токсинов на рынке. Преимущества и особенности</p>
+            </div>
+            <div class="teory">
+              <h2>02</h2>
+              <p>
+                Показания, противопоказания применения для разных возрастов, в
+                зависимости от особенностей строения лица
+              </p>
+            </div>
+            <div class="teory">
+              <h2>03</h2>
+              <p>
+                Показания к применению БТА в зависимости от анатомических и
+                физиологических особенностей
+              </p>
+            </div>
+            <div class="teory">
+              <h2>04</h2>
+              <p>
+                Анатомия лица по зонам. Геометрия точек и дозы для безопасного
+                введения БТА
+              </p>
+            </div>
+            <div class="teory">
+              <h2>05</h2>
+              <p>Созависимость возраста и доз</p>
+            </div>
+            <div class="teory">
+              <h2>06</h2>
+              <p>Техники разведения на разные виды токсинов</p>
+            </div>
+            <div class="teory">
+              <h2>07</h2>
+              <p>Все виды осложнений и методы их коррекции</p>
+            </div>
+            <div class="teory">
+              <h2>08</h2>
+              <p>Условия хранения БТА</p>
+            </div>
+            <h4>Практика</h4>
+            <div class="teory">
+              <h2>01</h2>
+              <p>Геометрия точек</p>
+            </div>
+            <div class="teory">
+              <h2>02</h2>
+              <p>Техники разведения БТА</p>
+            </div>
+            <div class="teory">
+              <h2>03</h2>
+              <p>Постановка руки</p>
+            </div>
+            <div class="teory">
+              <h2>04</h2>
+              <p>Самостоятельные инъекции под чутким руководством тренера</p>
+            </div>
+          </div>
+        </div>
+        <div class="second_day">
+          <div class="day_left_second">
+            <h2>2 день</h2>
+          </div>
+          <div class="day_right_second">
+            <p>
+              Тема: Коррекция нижней трети лица, особенности лечения
+              гипергидроза, понятие техники мезоботокса
+            </p>
+            <a href="#"><img src="icons/days_plus.svg" alt="" /></a>
+          </div>
+        </div>
+      </div>
+      <!-- TITLE -->
+      <div class="title">
+        <h2>Чему вы научитесь на курсе</h2>
+      </div>
+      <!-- MINIMUM -->
+      <div class="minimum">
+        <div class="minimum_item min_first">
+          <h2>Минимум препарата максимум результата</h2>
+          <p>
+            Вы научитесь делать эстетически красивые результаты, а не лица под
+            копирку
+          </p>
+        </div>
+        <div class="minimum_item min_second">
+          <h2>Тренер гарантировано "поставит вашу руку"</h2>
+          <p>Вы будете колоть самостоятельно уже на курсе</p>
+        </div>
+        <div class="minimum_item min_third">
+          <h2>Узнаете, как работать с любыми ТМ ботулотоксина</h2>
+          <p>
+            Мы объясним, за что отвечает каждый показатель на упаковке и по
+            какому принципу выбирать препарат
+          </p>
+        </div>
+        <div class="minimum_item min_four">
+          <h2>Вы отработаете практику на моделях</h2>
+          <p>
+            В нашей базе более 3500 моделей с реальными пролемами и пожеланиями
+          </p>
+        </div>
+      </div>
+      <!-- TRENER -->
+      <div class="trener">
+        <div class="trener_img">
+          <div class="trener_name">
+            <h3>Тренер</h3>
+            <h2>Марина Спивак</h2>
+          </div>
+          <img src="images/cource_trener.png" alt="" />
+        </div>
+        <div class="trener_text">
+          <div class="trener_name">
+            <h3>Тренер</h3>
+            <h2>Марина Спивак</h2>
+          </div>
+          <div class="trener_info">
+            <p>врач дерматовенеролог</p>
+            <p>соосновательница центра эстетической косметологии ValMari</p>
+            <p>ведущий специалист косметолог-инъекционист</p>
+            <p>главный тренер учебного центра ValMari</p>
+            <p>более 10 лет опыта работы врачом-инъекционистом</p>
+            <p>более 8-ми лет опыта работы тренером</p>
+            <p>в 2016 году вошла в пятерку лучших косметологов Украины</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- EARLY -->
+    <div class="early">
+      <h2>Ранняя регистрация</h2>
+      <p>При регистриции на курс до 15 декабря стоимость обучения - 7000 грн</p>
+      <button class="reg2">Зарегистрироваться</button>
+      <img src="icons/early_bird.svg" alt="" />
+    </div>
+    <div class="container">
+      <!-- TITLE -->
+      <div class="title">
+        <h2>Как это было в прошлый раз</h2>
+      </div>
+    </div>
+    <!-- LAST_TIME -->
+    <div class="last_time">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="last_times">
+                <img src="images/last_time 3.png" alt="" />
+                <img src="images/last_time 2.png" alt="" />
+                <img src="images/last_time 3.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="last_times">
+                <img src="images/last_time 3.png" alt="" />
+                <img src="images/last_time 2.png" alt="" />
+                <img src="images/last_time 3.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="last_times">
+                <img src="images/last_time 3.png" alt="" />
+                <img src="images/last_time 2.png" alt="" />
+                <img src="images/last_time 3.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="last_times">
+                <img src="images/last_time 3.png" alt="" />
+                <img src="images/last_time 2.png" alt="" />
+                <img src="images/last_time 3.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <div class="container">
+      <!-- TITLE -->
+      <div class="title">
+        <h2>Другие курсы</h2>
+      </div>
+      <!-- OTHER COURCES -->
+      <div class="other_cources">
+        <div class="cource_item">
+          <p>Курс для медиков</p>
+          <h2 class="first_h2">
+            Канюльные<br />
+            техники
+          </h2>
+          <div class="first_h3">
+            <h3>Оффлайн</h3>
+          </div>
+          <div class="cource_man">
+            <div class="cource_man_info">
+              <h4>1 - 4 мая</h4>
+              <p>
+                Краткое описание<br />
+                Что-то о курсе<br />
+                Пару фактов<br />
+                Краткое описание
+              </p>
+            </div>
+            <div class="cource_man_img">
+              <img src="images/cource_man.png" alt="" />
+            </div>
+          </div>
+          <h5>Свободно 2 из 15 мест</h5>
+          <button class="cource_registration_first reg2">
+            Зарегистрироваться
+          </button>
+          <a href="about_cource.html" class="cource_info_first">Подробнее</a>
+          <img class="cource_bird" src="icons/cource_bird.svg" alt="" />
+        </div>
+        <div class="cource_item">
+          <p>Курс для медиков</p>
+          <h2 class="second_h2">
+            Канюльные<br />
+            техники
+          </h2>
+          <div class="second_h3">
+            <h3>Оффлайн</h3>
+          </div>
+          <div class="cource_man">
+            <div class="cource_man_info">
+              <h4>1 - 4 мая</h4>
+              <p>
+                Краткое описание<br />
+                Что-то о курсе<br />
+                Пару фактов<br />
+                Краткое описание
+              </p>
+            </div>
+            <div class="cource_man_img">
+              <img src="images/cource_man.png" alt="" />
+            </div>
+          </div>
+          <h5>Свободно 2 из 15 мест</h5>
+          <button class="cource_registration_second reg2">
+            Зарегистрироваться
+          </button>
+          <a href="about_cource.html" class="cource_info_second">Подробнее</a>
+          <img class="cource_bird" src="icons/cource_bird.svg" alt="" />
+        </div>
+        <div class="cource_item">
+          <p>Курс для медиков</p>
+          <h2 class="third_h2">
+            Канюльные<br />
+            техники
+          </h2>
+          <div class="third_h3">
+            <h3>Оффлайн</h3>
+          </div>
+          <div class="cource_man">
+            <div class="cource_man_info">
+              <h4>1 - 4 мая</h4>
+              <p>
+                Краткое описание<br />
+                Что-то о курсе<br />
+                Пару фактов<br />
+                Краткое описание
+              </p>
+            </div>
+            <div class="cource_man_img">
+              <img src="images/cource_man.png" alt="" />
+            </div>
+          </div>
+          <h5>Свободно 2 из 15 мест</h5>
+          <button class="cource_registration_third reg2">
+            Зарегистрироваться
+          </button>
+          <a href="about_cource.html" class="cource_info_third">Подробнее</a>
+          <img class="cource_bird" src="icons/cource_bird.svg" alt="" />
+        </div>
+        <div class="see_all">
+          <a href="cource.html">Смотреть все курсы</a>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer_map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.367930489372!2d49.84653408092322!3d40.37853740559822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307da6571f6cc7%3A0x8c29ed401e1df1e7!2sCentral%20Bank%20of%20the%20Republic%20of%20Azerbaijan!5e0!3m2!1saz!2saz!4v1677946677176!5m2!1saz!2saz"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <a href="not_found.html" class="goverment_480"
+          >Политика конфиденциальности</a
+        >
+      </div>
+      <div class="footer_text">
+        <img src="icons/footer_logo.svg" alt="" />
+        <a href="tel:+0800508622" class="footer_phone">0 (800) 508-622</a>
+        <p>Харьков, Клочковская, д. 3</p>
+        <div class="footer_nav">
+          <ul class="left_nav">
+            <li><a href="cource.html">Курсы обучения</a></li>
+            <li><a href="cource.html">Вебинары</a></li>
+            <li><a href="cource.html">Видео-уроки</a></li>
+            <li><a href="not_found.html">Прайс</a></li>
+            <li><a href="schedule.html">Рассписание</a></li>
+          </ul>
+          <ul class="right_nav">
+            <li><a href="offer.html">Акции</a></li>
+            <li><a href="about_us.html">О нас</a></li>
+            <li><a href="blog.html">Блог</a></li>
+            <li><a href="cource.html">Магазин</a></li>
+          </ul>
+        </div>
+        <div class="footer_icons">
+          <a href="https://www.facebook.com/Valmari2015/">
+            <img src="icons/footer_facebook.svg" alt="" />
+          </a>
+          <a href="https://www.instagram.com/valmari_ukraine/">
+            <img src="icons/footer_instagram.svg" alt="" />
+          </a>
+        </div>
+        <a href="not_found.html" class="goverment"
+          >Политика конфиденциальности</a
+        >
+      </div>
+    </footer>
+    <script src="js/modal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/about_cource_swipe.js"></script>
+  </body>
+</html>

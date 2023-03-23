@@ -1,0 +1,469 @@
+@media screen and (max-width: 1000px) {
+  .for_responsibility {
+    display: block;
+  }
+  .header_bg {
+    display: none;
+  }
+  .navbar {
+    display: none;
+  }
+  /* ----TITLE----- */
+  .title {
+    margin: 50px 0;
+  }
+  .title h2 {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  /* -----HERO---- */
+  .hero_img {
+    height: 415px;
+  }
+  .hero_text h2 {
+    font-size: 25px;
+    line-height: 26px;
+    margin: 29px 0 18px;
+  }
+  .hero_text a {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  /* ----BLOG---- */
+  .blog_text {
+    padding: 24px 17px 26px 9px;
+    gap: 35px;
+  }
+  .blog_text p {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .blog_text a {
+    font-size: 16px;
+    line-height: 26px;
+    margin-right: 6px;
+  }
+  /* ---FOOTER--- */
+  footer {
+    height: 601px;
+  }
+  .footer_text {
+    padding: 31px 0 59px 44px;
+  }
+  .footer_phone {
+    font-size: 25px;
+    line-height: 26px;
+    margin: 33px 0 18px;
+  }
+  .footer_text p {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 31px;
+  }
+  .footer_nav {
+    gap: 65px;
+  }
+  .footer_text ul {
+    gap: 17px;
+  }
+  .footer_text ul a {
+    font-size: 15px;
+    line-height: 14px;
+  }
+  .footer_icons {
+    gap: 32px;
+    margin: 47px 0 61px;
+  }
+  .goverment {
+    font-size: 15px;
+    line-height: 26px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .responsive_phone img {
+    width: 23px;
+    height: 23px;
+  }
+  .responsive_logo {
+    width: 70px;
+    height: 72px;
+  }
+  .responsive_logo img {
+    width: 100%;
+    height: 100%;
+  }
+  /* ----TITLE----- */
+  .title {
+    margin: 40px 0;
+  }
+  .title h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  /* -----HERO---- */
+  .hero_img {
+    height: 241px;
+  }
+  .hero_text h2 {
+    font-size: 18px;
+    line-height: 17px;
+    margin: 29px auto 18px;
+  }
+  .hero_text a {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  /* ----BLOG---- */
+  .blogs .blog {
+    width: 87%;
+    margin: 0 auto;
+  }
+  .blog_item {
+    width: 48%;
+    margin-bottom: 64px;
+  }
+  .blog_text {
+    padding: 24px 17px 26px 9px;
+    gap: 35px;
+  }
+  .blog_text p {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  .blog_text a {
+    font-size: 16px;
+    line-height: 26px;
+    margin-right: 6px;
+  }
+  /* ---FOOTER--- */
+  footer {
+    height: 591px;
+  }
+  .footer_map {
+    width: 45%;
+  }
+  .footer_text {
+    width: 55%;
+    padding: 40px 0 40px 32px;
+  }
+  .footer_phone {
+    font-size: 25px;
+    line-height: 26px;
+    margin: 23px 0 16px;
+  }
+  .footer_text p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 26px;
+  }
+  .footer_nav {
+    gap: 45px;
+  }
+  .footer_text ul {
+    gap: 15px;
+  }
+  .footer_text ul a {
+    font-size: 15px;
+    line-height: 17px;
+  }
+  .footer_icons {
+    gap: 24px;
+    margin: 38px 0 34px;
+  }
+  .goverment {
+    font-size: 15px;
+    line-height: 26px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .first_line {
+    width: 100%;
+    height: 3px;
+  }
+  .second_line {
+    height: 3px;
+    width: 22px;
+    margin: 4px 0;
+  }
+  .third_line {
+    width: 100%;
+    height: 3px;
+  }
+  .burger {
+    width: 17px;
+    height: 27px;
+  }
+  .checkbox:checked
+    + .for_responsibility
+    .container
+    .responsive_header
+    .burger
+    .first_line {
+    width: 50px;
+    height: 5px;
+  }
+  .checkbox:checked
+    + .for_responsibility
+    .container
+    .responsive_header
+    .burger
+    .third_line {
+    width: 50px;
+    height: 5px;
+  }
+  .responsive_logo {
+    width: 45px;
+    height: 46px;
+  }
+  .responsive_logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .responsive_phone img {
+    width: 14px;
+    height: 14px;
+  }
+  .responsive_phone a {
+    font-size: 12px;
+  }
+  .responsive_header {
+    height: 59px;
+  }
+  /* ----TITLE----- */
+  .title {
+    margin: 50px 0 24px;
+  }
+  .title h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  /* -----HERO---- */
+  .hero_img {
+    height: 203px;
+  }
+  .hero_text h2 {
+    font-size: 15px;
+    line-height: 17px;
+    margin: 19px auto 18px;
+  }
+  .hero_text a {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  /* ----BLOG---- */
+  .blogs .blog {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .blog_item {
+    width: 100%;
+    margin-bottom: 61px;
+  }
+  .blog_text {
+    padding: 23px 30px 21px 5px;
+    gap: 59px;
+  }
+  .blog_text p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .blog_text a {
+    font-size: 16px;
+    line-height: 26px;
+    margin-right: 0px;
+  }
+  /* ---FOOTER--- */
+  footer {
+    height: 839px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer_map {
+    width: 100%;
+    height: 305px;
+  }
+  .footer_text {
+    width: 100%;
+    height: 534px;
+    padding: 26px 80px 37px;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer_text > img {
+    width: 55px;
+    height: 55px;
+  }
+  .footer_phone {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 36px 0 7px;
+  }
+  .footer_text p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 57px;
+  }
+  .footer_nav {
+    gap: 73px;
+  }
+  .footer_text ul {
+    gap: 20px;
+  }
+  .footer_text ul a {
+    font-size: 15px;
+    line-height: 16px;
+  }
+  .footer_icons {
+    gap: 23px;
+    margin: 50px 0 0;
+  }
+  .goverment {
+    display: none;
+  }
+  .footer_map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .footer_map iframe {
+    width: 100% !important;
+    height: 272px !important;
+  }
+  .goverment_480 {
+    display: inline-block;
+    width: 100%;
+    height: 35px;
+    background: #424242;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .responsive_phone {
+    display: none;
+  }
+  .responsive_logo {
+    width: 40px;
+    height: 41px;
+  }
+  .responsive_logo img {
+    width: 100%;
+    height: 100%;
+  }
+  /* ----TITLE----- */
+  .title {
+    margin: 40px 0 30px;
+  }
+  .title h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  /* -----HERO---- */
+  .hero_img {
+    height: 323px;
+  }
+  .hero_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero_text h2 {
+    font-size: 15px;
+    line-height: 17px;
+    margin: 15px 0 30px;
+  }
+  .hero_text a {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  /* ----BLOG---- */
+  .blogs .blog {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .blog_item {
+    width: 100%;
+    margin-bottom: 66px;
+  }
+  .blog_text {
+    padding: 24px 15px 26px 9px;
+    gap: 35px;
+  }
+  /* ---FOOTER--- */
+  footer {
+    height: 596px;
+  }
+  .footer_map {
+    height: 218px;
+  }
+  .footer_text {
+    height: 378px;
+    padding: 26px 50px 15px;
+  }
+  .footer_text > img {
+    width: 53px;
+    height: 53px;
+  }
+  .footer_phone {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 15px 0 1px;
+  }
+  .footer_text p {
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 26px;
+  }
+  .footer_nav {
+    gap: 54px;
+  }
+  .footer_text ul {
+    gap: 8px;
+  }
+  .footer_text ul a {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .footer_icons {
+    gap: 20px;
+    margin: 23px 0 18px;
+  }
+  .footer_icons img {
+    width: 20px;
+    height: 20px;
+  }
+  .goverment {
+    display: block;
+    font-size: 12px;
+    line-height: 26px;
+  }
+  .footer_map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .footer_map iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .goverment_480 {
+    display: none;
+  }
+}
